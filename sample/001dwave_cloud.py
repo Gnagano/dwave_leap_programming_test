@@ -6,5 +6,3 @@ from dwave.cloud import Client
 
 client = Client.from_config(token=account.LEAP_API_TOKEN)
 print client.get_solvers()
-
-#print account.LEAP_API_TOKEN
