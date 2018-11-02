@@ -1,17 +1,16 @@
-Leap api programming samples.
-Leap is quantum computing (aneealing) cloud environment provided by D-Wave
+Leap api (quantum computing cloud environment) programming samples.
 ===
 
-Overview
+# Overview
 
 These files are sample codes using Leap.
 [Leap](https://cloud.dwavesys.com/leap/login/?next=/leap/) is the cloud environment of quantum computing (annealing) provided by D-Wave. Almost sample codes are taken from [D-Wave Ocean Software Documentaion](https://docs.ocean.dwavesys.com/en/latest/index.html)
 
-## Dependency
+# Dependency
 
 python 2.7
 
-## Setup
+# Setup
 
 1. Create your account at [D-Wave Leap](https://cloud.dwavesys.com/leap/login/).
 
@@ -21,26 +20,25 @@ python 2.7
 
 4. Read [Confiuring a D-Wave System as a Solver](https://docs.ocean.dwavesys.com/en/latest/overview/dwavesys.html#configuring-a-d-wave-system-as-a-solver) and configure the solver.
 
-5. Rename the file config/account.py.default as config/account.py.
-   Then edit the constant `LEAP_API_TOKEN` like below.
+5. Rename the file config/account.py.default as config/account.py.Then edit the constant `LEAP_API_TOKEN` like below.
 
   ```
   LEAP_API_TOKEN='YOUR_API TOKEN'
   ```
 
-  Additioinally, rename the file config/config.py.default to config/config.py.
-  Then edit the constant `API_ENDPOINT` and `SOLVER_NAME` like below.
+　Additioinally, rename the file config/config.py.default to config/config.py.<br>
+　Then edit the constant `API_ENDPOINT` and `SOLVER_NAME` like below.
 
   ```
   API_ENDPOINT='YOUR_API_ENDPOINT'
   SOLVER_NAME='YOUR_SOLVER_NAME'
   ```
 
-  You can decide 'SOLVER_NAME' as you like.
+　You can decide 'SOLVER_NAME' as you like.
 
 6. Then, you can execute python codes in the `sample` directory.
 
-## Usage
+# Usage
 
 Just execute python code like below.
 
