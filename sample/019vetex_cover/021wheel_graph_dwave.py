@@ -1,5 +1,7 @@
 import os,sys
-sys.path.append(os.path.dirname(os.pardir))
+dir = os.path.dirname(os.path.abspath(__file__))
+root = os.path.normpath(os.path.join(dir,'../../'))
+sys.path.append(root)
 
 from config import account
 from config import config
