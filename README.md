@@ -6,11 +6,11 @@ Leap api (quantum computing cloud environment) programming samples.
 These files are sample codes using Leap.
 [Leap](https://cloud.dwavesys.com/leap/login/?next=/leap/) is the cloud environment of quantum computing (annealing) provided by D-Wave. Almost sample codes are taken from [D-Wave Ocean Software Documentaion](https://docs.ocean.dwavesys.com/en/latest/index.html)
 
-## Dependency
+# Dependency
 
 python 2.7
 
-## Setup
+# Setup
 
 1. Create your account at [D-Wave Leap](https://cloud.dwavesys.com/leap/login/).
 
@@ -38,7 +38,7 @@ python 2.7
 
 6. Then, you can execute python codes in the `sample` directory.
 
-## Usage
+# Usage
 
 Just execute python code like below.
 
