@@ -17,9 +17,6 @@ sampler = EmbeddingComposite(DWaveSampler(
 start = datetime.datetime.now()
 print "start time is " + str(start)
 
-# w5 = nx.wheel_graph(5)
-# print(dnx.min_vertex_cover(w5,sampler))
-
 w25 = nx.wheel_graph(25)
 print(dnx.min_vertex_cover(w25,sampler))
 
