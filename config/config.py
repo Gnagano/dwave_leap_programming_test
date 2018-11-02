@@ -1,2 +1,2 @@
 API_ENDPOINT='https://cloud.dwavesys.com/sapi'
-SOLVER_NAME='DW_2000Q_2'
+SOLVER_NAME='DW_2000Q_2_1'
