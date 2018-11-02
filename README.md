@@ -20,14 +20,13 @@ python 2.7
 
 4. Read [Confiuring a D-Wave System as a Solver](https://docs.ocean.dwavesys.com/en/latest/overview/dwavesys.html#configuring-a-d-wave-system-as-a-solver) and configure the solver.
 
-5. Rename the file config/account.py.default as config/account.py.
-   Then edit the constant `LEAP_API_TOKEN` like below.
+5. Rename the file config/account.py.default as config/account.py.Then edit the constant `LEAP_API_TOKEN` like below.
 
   ```
   LEAP_API_TOKEN='YOUR_API TOKEN'
   ```
 
-　Additioinally, rename the file config/config.py.default to config/config.py.
+　Additioinally, rename the file config/config.py.default to config/config.py.<br>
 　Then edit the constant `API_ENDPOINT` and `SOLVER_NAME` like below.
 
   ```
