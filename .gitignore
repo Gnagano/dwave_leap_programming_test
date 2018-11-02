@@ -1,4 +1,5 @@
 .DS_Store
-
 /config/account.py
-.pyc
+/config/config.py
+*.pyc
+
